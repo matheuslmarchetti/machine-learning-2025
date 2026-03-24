@@ -1,5 +1,75 @@
+# Arquivo .gitignore para projeto Python
+# Criado por [Seu Nome]
+
+# Ambientes Virtuais - ESCOLHA UM (comente os outros)
+# A pasta .venv é a mais moderna e recomendada
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos de ambiente (variáveis de ambiente sensíveis)
+.env
+.env.local
+.env.*.local
+.secrets
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuições / instaladores / builds
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pypackages__/
+
+# Instalador do pip
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE (Ambientes de Desenvolvimento)
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+*.csv
 *.xlsx
 *.parquet
-*.csv
+*.feather
+*.pkl
 mlartifacts
 mlruns
